@@ -4,7 +4,7 @@ import profile from '../images/profile.jpeg'
 const Hero = () => {
   return (
     <div>
-      <section className="md:min-h-[calc(100vh-5rem)] py-4 md:pt-0  flex flex-col items-center justify-around text-center bg-gradient-to-b from-[#0f0c29] via-[#302b63] to-[#24243e] animate-gradient text-white">
+      <section className="min-h-[calc(100vh-5rem)] py-4 md:pt-0  flex flex-col items-center justify-around text-center bg-gradient-to-b from-[#0f0c29] via-[#302b63] to-[#24243e] animate-gradient text-white">
         <div className="md:w-2xl   flex justify-around gap-5 items-center flex-col">
         {/* Profile Image */}
         <div className="w-34 md:w-68 h-34 md:h-68 rounded-full  shadow-lg flex justify-center items-center bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500">

@@ -24,11 +24,11 @@ const About = () => {
             {/* Stats */}
             <div className="mt-10 flex gap-6 flex-wrap">
               <div className="border border-purple-500 rounded-xl p-6 text-center w-40 bg-gradient-to-br from-[#3f0d5a] to-[#1e1b60] shadow-md">
-                <p className="text-3xl font-extrabold text-blue-400">50+</p>
+                <p className="text-3xl font-extrabold text-blue-400">7+</p>
                 <p className="text-sm text-gray-300 mt-1">Projects Completed</p>
               </div>
               <div className="border border-purple-500 rounded-xl p-6 text-center w-40 bg-gradient-to-br from-[#3f0d5a] to-[#1e1b60] shadow-md">
-                <p className="text-3xl font-extrabold text-blue-400">2+</p>
+                <p className="text-3xl font-extrabold text-blue-400">1+</p>
                 <p className="text-sm text-gray-300 mt-1">Years Experience</p>
               </div>
             </div>
