@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  // base: '/Muhammad-Basit/', // 👈 your repo name
+  base: '/Muhammad-Basit/', // 👈 your repo name
   plugins: [
     react(),
     tailwindcss()
