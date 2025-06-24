@@ -6,17 +6,18 @@ import Projects from './ProjectsComponent'
 import ProjectsComponent from './ProjectsComponent'
 import Contact from './Contact'
 
-const Home = () => {
+const Homepage = () => {
   return (
-    <div>
+    <>
       <div><Hero /></div>
       <div><About /></div>
       <div><Services /></div>
       <div><ProjectsComponent /></div>
       <div><Contact /></div>
+  
       
-    </div>
+    </>
   )
 }
 
-export default Home
+export default Homepage

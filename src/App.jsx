@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from './Resuable/Header'
-import Home from "./Home/Home";
+import Homepage from "./Home/Homepage";
 import About from "./Home/About";
 import Services from "./Home/Services";
 import ProjectsComponent from "./Home/ProjectsComponent";
@@ -12,7 +12,7 @@ function App() {
     <Router>
       <Header />
       <Routes>
-        <Route path="/" element={<div>  <Home /></div>} />
+        <Route path="/" element={  <Homepage />} />
         <Route path="/about" element={<About />} />
         <Route path="/services" element={<Services />} />
         <Route path="/Projects" element={<ProjectsComponent/>} />
