@@ -34,7 +34,7 @@ const projects = [
 
 const ProjectsComponent = () => {
   return (
- <section className="w-full min-h-screen bg-gradient-to-b from-[#1d0b3a] to-[#391672] py-20 px-4 sm:px-10 text-white">
+ <section className="w-full md:min-h-screen bg-gradient-to-b from-[#1d0b3a] to-[#391672] py-20 px-4 sm:px-10 text-white">
      <h2 className="text-4xl font-bold text-center text-blue-400 mb-2">
           "Several projects are currently in development and will be published in this section shortly."
         </h2>

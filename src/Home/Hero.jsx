@@ -39,13 +39,13 @@ const Hero = () => {
         <div className="flex gap-4">
           <a
             href="#contact"
-            className="relative px-8 py-4 bg-black text-xl  text-white hover:text-black font-semibold rounded-lg hover:bg-gray-100 transition"
+            className="relative px-4 py-2 md:px-8 md:py-4 bg-black text-sm md:text-xl  text-white hover:text-black font-semibold rounded-lg hover:bg-gray-100 transition"
           >
             View My Work
           </a>
           <a
             href="#portfolio"
-            className="relative px-8 py-4 bg-black text-xl  text-white hover:text-black font-semibold rounded-xl hover:bg-gray-100 transition"
+            className="relative px-4 py-2 md:px-8 md:py-4 bg-black text-sm md:text-xl  text-white hover:text-black font-semibold rounded-xl hover:bg-gray-100 transition"
           >
             Get in Touch    
           </a>
